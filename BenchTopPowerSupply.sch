@@ -24175,7 +24175,6 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="20pF"/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="20pF"/>
-<part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BOOT" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-2X3" device="" package3d_urn="urn:adsk.eagle:package:22462/2"/>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100k"/>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="100k"/>
@@ -24205,18 +24204,19 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 <part name="C32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
 <part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF"/>
 <part name="P+19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
+<part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1M"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="739.14" y="241.3" size="1.778" layer="91" grouprefs="X_POWER_CIRCUITRY">CHECK INDUCTOR PART AND CAP PART</text>
 <text x="58.42" y="243.84" size="1.778" layer="91">Screw Terminals need replaced cant access them from layout</text>
-<text x="558.8" y="370.84" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">BOOT CIRCUIT</text>
-<text x="563.88" y="314.96" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">PROGRAM CIRCUIT</text>
-<text x="726.44" y="299.72" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">HIGH SPEED OSCILLATOR CIRCUIT</text>
-<text x="756.92" y="325.12" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">I2C INTERFACE</text>
-<text x="754.38" y="368.3" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">CAP BANK</text>
-<text x="731.52" y="345.44" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">TANK CAP</text>
+<text x="523.24" y="391.16" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">BOOT CIRCUIT</text>
+<text x="528.32" y="335.28" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">PROGRAM CIRCUIT</text>
+<text x="690.88" y="320.04" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">HIGH SPEED OSCILLATOR CIRCUIT</text>
+<text x="721.36" y="345.44" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">I2C INTERFACE</text>
+<text x="718.82" y="388.62" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">CAP BANK</text>
+<text x="695.96" y="365.76" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">TANK CAP</text>
 <text x="817.88" y="40.64" size="1.778" layer="91" grouprefs="Y_POWER_CIRCUITRY">1V Per Amp in this config</text>
 <text x="828.04" y="160.02" size="1.778" layer="91" grouprefs="X_POWER_CIRCUITRY">1V Per Amp in this config</text>
 <text x="520.7" y="76.2" size="1.778" layer="91" grouprefs="9V_POWER_CIRCUITRY">1V Per Amp in this config</text>
@@ -24866,75 +24866,75 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 <instance part="GND24" gate="1" x="782.32" y="195.58" smashed="yes" grouprefs="X_POWER_CIRCUITRY">
 <attribute name="VALUE" x="779.78" y="193.04" size="1.778" layer="96"/>
 </instance>
-<instance part="U7" gate="G$1" x="688.34" y="312.42" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="668.02" y="353.695" size="1.778" layer="95"/>
-<attribute name="VALUE" x="668.02" y="271.78" size="1.778" layer="96"/>
+<instance part="U7" gate="G$1" x="652.78" y="332.74" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="632.46" y="374.015" size="1.778" layer="95"/>
+<attribute name="VALUE" x="632.46" y="292.1" size="1.778" layer="96"/>
 </instance>
-<instance part="R23" gate="G$1" x="645.16" y="289.56" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="641.35" y="291.0586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="638.81" y="286.258" size="1.778" layer="96"/>
+<instance part="R23" gate="G$1" x="609.6" y="309.88" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="605.79" y="311.3786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="603.25" y="306.578" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="624.84" y="289.56" smashed="yes" rot="R270" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="620.268" y="286.004" size="1.778" layer="95"/>
-<attribute name="VALUE" x="620.268" y="283.845" size="1.778" layer="96"/>
+<instance part="LED1" gate="G$1" x="589.28" y="309.88" smashed="yes" rot="R270" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="584.708" y="306.324" size="1.778" layer="95"/>
+<attribute name="VALUE" x="584.708" y="304.165" size="1.778" layer="96"/>
 </instance>
-<instance part="GND25" gate="1" x="607.06" y="289.56" smashed="yes" rot="R270" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="604.52" y="292.1" size="1.778" layer="96" rot="R270"/>
+<instance part="GND25" gate="1" x="571.5" y="309.88" smashed="yes" rot="R270" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="568.96" y="312.42" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="UART" gate="A" x="627.38" y="307.34" smashed="yes" rot="R180" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="633.73" y="301.625" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="633.73" y="314.96" size="1.778" layer="96" rot="R180"/>
+<instance part="UART" gate="A" x="591.82" y="327.66" smashed="yes" rot="R180" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="598.17" y="321.945" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="598.17" y="335.28" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND38" gate="1" x="640.08" y="304.8" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="647.7" y="304.8" size="1.778" layer="96" rot="R180"/>
+<instance part="GND38" gate="1" x="604.52" y="325.12" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="612.14" y="325.12" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="I2C" gate="A" x="764.54" y="314.96" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="758.19" y="320.675" size="1.778" layer="95"/>
-<attribute name="VALUE" x="758.19" y="307.34" size="1.778" layer="96"/>
+<instance part="I2C" gate="A" x="728.98" y="335.28" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="722.63" y="340.995" size="1.778" layer="95"/>
+<attribute name="VALUE" x="722.63" y="327.66" size="1.778" layer="96"/>
 </instance>
-<instance part="GND39" gate="1" x="734.06" y="309.88" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="731.52" y="307.34" size="1.778" layer="96"/>
+<instance part="GND39" gate="1" x="698.5" y="330.2" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="695.96" y="327.66" size="1.778" layer="96"/>
 </instance>
-<instance part="R24" gate="G$1" x="734.06" y="325.12" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="732.5614" y="321.31" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="737.362" y="321.31" size="1.778" layer="96" rot="R90"/>
+<instance part="R24" gate="G$1" x="698.5" y="345.44" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="697.0014" y="341.63" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="701.802" y="341.63" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R25" gate="G$1" x="741.68" y="325.12" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="740.1814" y="321.31" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="744.982" y="321.31" size="1.778" layer="96" rot="R90"/>
+<instance part="R25" gate="G$1" x="706.12" y="345.44" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="704.6214" y="341.63" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="709.422" y="341.63" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V5" gate="G$1" x="741.68" y="337.82" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="739.14" y="332.74" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V5" gate="G$1" x="706.12" y="358.14" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="703.58" y="353.06" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V6" gate="G$1" x="734.06" y="337.82" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="731.52" y="332.74" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V6" gate="G$1" x="698.5" y="358.14" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="695.96" y="353.06" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Y1" gate="G$1" x="731.52" y="287.02" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="728.98" y="284.48" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="735.33" y="284.48" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="Y1" gate="G$1" x="713.74" y="307.34" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="711.2" y="304.8" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="717.55" y="304.8" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
-<instance part="+3V7" gate="G$1" x="723.9" y="355.6" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="721.36" y="350.52" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V7" gate="G$1" x="688.34" y="375.92" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="685.8" y="370.84" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C13" gate="G$1" x="723.9" y="345.44" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="725.043" y="345.9226" size="1.778" layer="95"/>
-<attribute name="VALUE" x="725.043" y="340.8426" size="1.778" layer="96"/>
+<instance part="C13" gate="G$1" x="688.34" y="365.76" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="689.483" y="366.2426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="689.483" y="361.1626" size="1.778" layer="96"/>
 </instance>
-<instance part="GND47" gate="1" x="723.9" y="337.82" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="721.36" y="335.28" size="1.778" layer="96"/>
+<instance part="GND47" gate="1" x="688.34" y="358.14" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="685.8" y="355.6" size="1.778" layer="96"/>
 </instance>
-<instance part="GND48" gate="1" x="713.74" y="274.32" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="711.2" y="271.78" size="1.778" layer="96"/>
+<instance part="GND48" gate="1" x="678.18" y="294.64" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="675.64" y="292.1" size="1.778" layer="96"/>
 </instance>
-<instance part="PRGM" gate="A" x="579.12" y="299.72" smashed="yes" rot="R180" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="585.47" y="291.465" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="585.47" y="307.34" size="1.778" layer="96" rot="R180"/>
+<instance part="PRGM" gate="A" x="543.56" y="320.04" smashed="yes" rot="R180" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="549.91" y="311.785" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="549.91" y="327.66" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V8" gate="G$1" x="589.28" y="312.42" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="586.74" y="307.34" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V8" gate="G$1" x="553.72" y="332.74" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="551.18" y="327.66" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND49" gate="1" x="589.28" y="287.02" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="586.74" y="284.48" size="1.778" layer="96"/>
+<instance part="GND49" gate="1" x="553.72" y="307.34" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="551.18" y="304.8" size="1.778" layer="96"/>
 </instance>
 <instance part="R26" gate="G$1" x="429.26" y="213.36" smashed="yes" rot="R90" grouprefs="5V_POWER_CIRCUITRY">
 <attribute name="NAME" x="427.7614" y="209.55" size="1.778" layer="95" rot="R90"/>
@@ -24978,71 +24978,68 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 <instance part="GND55" gate="1" x="828.04" y="167.64" smashed="yes" grouprefs="X_POWER_CIRCUITRY">
 <attribute name="VALUE" x="825.5" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V9" gate="G$1" x="741.68" y="370.84" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="739.14" y="365.76" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V9" gate="G$1" x="706.12" y="391.16" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="703.58" y="386.08" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C14" gate="G$1" x="741.68" y="363.22" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="743.204" y="363.601" size="1.778" layer="95"/>
-<attribute name="VALUE" x="743.204" y="358.521" size="1.778" layer="96"/>
+<instance part="C14" gate="G$1" x="706.12" y="383.54" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="707.644" y="383.921" size="1.778" layer="95"/>
+<attribute name="VALUE" x="707.644" y="378.841" size="1.778" layer="96"/>
 </instance>
-<instance part="C15" gate="G$1" x="751.84" y="363.22" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="753.364" y="363.601" size="1.778" layer="95"/>
-<attribute name="VALUE" x="753.364" y="358.521" size="1.778" layer="96"/>
+<instance part="C15" gate="G$1" x="716.28" y="383.54" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="717.804" y="383.921" size="1.778" layer="95"/>
+<attribute name="VALUE" x="717.804" y="378.841" size="1.778" layer="96"/>
 </instance>
-<instance part="C16" gate="G$1" x="762" y="363.22" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="763.524" y="363.601" size="1.778" layer="95"/>
-<attribute name="VALUE" x="763.524" y="358.521" size="1.778" layer="96"/>
+<instance part="C16" gate="G$1" x="726.44" y="383.54" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="727.964" y="383.921" size="1.778" layer="95"/>
+<attribute name="VALUE" x="727.964" y="378.841" size="1.778" layer="96"/>
 </instance>
-<instance part="C17" gate="G$1" x="772.16" y="363.22" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="773.684" y="363.601" size="1.778" layer="95"/>
-<attribute name="VALUE" x="773.684" y="358.521" size="1.778" layer="96"/>
+<instance part="C17" gate="G$1" x="736.6" y="383.54" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="738.124" y="383.921" size="1.778" layer="95"/>
+<attribute name="VALUE" x="738.124" y="378.841" size="1.778" layer="96"/>
 </instance>
-<instance part="GND56" gate="1" x="741.68" y="355.6" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="739.14" y="353.06" size="1.778" layer="96"/>
+<instance part="GND56" gate="1" x="706.12" y="375.92" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="703.58" y="373.38" size="1.778" layer="96"/>
 </instance>
-<instance part="C18" gate="G$1" x="739.14" y="292.1" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="738.759" y="293.624" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="743.839" y="293.624" size="1.778" layer="96" rot="R90"/>
+<instance part="C18" gate="G$1" x="721.36" y="312.42" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="720.979" y="313.944" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="726.059" y="313.944" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C19" gate="G$1" x="739.14" y="281.94" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="738.759" y="275.844" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="743.839" y="275.844" size="1.778" layer="96" rot="R90"/>
+<instance part="C19" gate="G$1" x="721.36" y="302.26" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="720.979" y="296.164" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="726.059" y="296.164" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND57" gate="1" x="751.84" y="287.02" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="754.38" y="284.48" size="1.778" layer="96" rot="R90"/>
+<instance part="BOOT" gate="A" x="548.64" y="381" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="542.29" y="386.715" size="1.778" layer="95"/>
+<attribute name="VALUE" x="542.29" y="373.38" size="1.778" layer="96"/>
 </instance>
-<instance part="BOOT" gate="A" x="584.2" y="360.68" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="577.85" y="366.395" size="1.778" layer="95"/>
-<attribute name="VALUE" x="577.85" y="353.06" size="1.778" layer="96"/>
+<instance part="R32" gate="G$1" x="566.42" y="381" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="562.61" y="382.4986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="562.61" y="377.698" size="1.778" layer="96"/>
 </instance>
-<instance part="R32" gate="G$1" x="601.98" y="360.68" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="598.17" y="362.1786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="598.17" y="357.378" size="1.778" layer="96"/>
+<instance part="R33" gate="G$1" x="533.4" y="381" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="529.59" y="382.4986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="529.59" y="377.698" size="1.778" layer="96"/>
 </instance>
-<instance part="R33" gate="G$1" x="568.96" y="360.68" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="565.15" y="362.1786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="565.15" y="357.378" size="1.778" layer="96"/>
+<instance part="+3V10" gate="G$1" x="551.18" y="393.7" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="548.64" y="388.62" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V10" gate="G$1" x="586.74" y="373.38" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="584.2" y="368.3" size="1.778" layer="96" rot="R90"/>
+<instance part="GND40" gate="1" x="551.18" y="365.76" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="548.64" y="363.22" size="1.778" layer="96"/>
 </instance>
-<instance part="GND40" gate="1" x="586.74" y="345.44" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="584.2" y="342.9" size="1.778" layer="96"/>
+<instance part="C20" gate="G$1" x="530.86" y="322.58" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="532.384" y="322.961" size="1.778" layer="95"/>
+<attribute name="VALUE" x="532.384" y="317.881" size="1.778" layer="96"/>
 </instance>
-<instance part="C20" gate="G$1" x="566.42" y="302.26" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="567.944" y="302.641" size="1.778" layer="95"/>
-<attribute name="VALUE" x="567.944" y="297.561" size="1.778" layer="96"/>
+<instance part="RST" gate="G$1" x="589.28" y="360.68" smashed="yes" rot="R180" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="588.01" y="353.695" size="1.778" layer="95"/>
+<attribute name="VALUE" x="595.63" y="365.76" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="RST" gate="G$1" x="624.84" y="340.36" smashed="yes" rot="R180" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="623.57" y="333.375" size="1.778" layer="95"/>
-<attribute name="VALUE" x="631.19" y="345.44" size="1.778" layer="96" rot="R180"/>
+<instance part="GND58" gate="1" x="599.44" y="350.52" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="596.9" y="347.98" size="1.778" layer="96"/>
 </instance>
-<instance part="GND58" gate="1" x="635" y="330.2" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="632.46" y="327.66" size="1.778" layer="96"/>
-</instance>
-<instance part="C23" gate="G$1" x="713.74" y="345.44" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="715.264" y="345.821" size="1.778" layer="95"/>
-<attribute name="VALUE" x="715.264" y="340.741" size="1.778" layer="96"/>
+<instance part="C23" gate="G$1" x="678.18" y="365.76" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="679.704" y="366.141" size="1.778" layer="95"/>
+<attribute name="VALUE" x="679.704" y="361.061" size="1.778" layer="96"/>
 </instance>
 <instance part="GND59" gate="1" x="347.98" y="116.84" smashed="yes" grouprefs="9V_POWER_CIRCUITRY">
 <attribute name="VALUE" x="345.44" y="114.3" size="1.778" layer="96"/>
@@ -25118,6 +25115,10 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 </instance>
 <instance part="P+19" gate="1" x="650.24" y="236.22" smashed="yes">
 <attribute name="VALUE" x="647.7" y="231.14" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R34" gate="G$1" x="706.12" y="307.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="704.6214" y="303.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="709.422" y="303.53" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -25547,42 +25548,42 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="619.76" y1="289.56" x2="609.6" y2="289.56" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="584.2" y1="309.88" x2="574.04" y2="309.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="UART" gate="A" pin="1"/>
-<wire x1="629.92" y1="304.8" x2="637.54" y2="304.8" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="594.36" y1="325.12" x2="601.98" y2="325.12" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="I2C" gate="A" pin="3"/>
-<wire x1="762" y1="312.42" x2="734.06" y2="312.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="726.44" y1="332.74" x2="698.5" y2="332.74" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C13" gate="G$1" pin="-"/>
 <pinref part="GND47" gate="1" pin="GND"/>
 <pinref part="C23" gate="G$1" pin="2"/>
-<wire x1="713.74" y1="340.36" x2="723.9" y2="340.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="723.9" y="340.36" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="678.18" y1="360.68" x2="688.34" y2="360.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="688.34" y="360.68" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="VSSA"/>
 <pinref part="U7" gate="G$1" pin="VSS"/>
-<wire x1="713.74" y1="279.4" x2="713.74" y2="276.86" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="678.18" y1="299.72" x2="678.18" y2="297.18" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="GND48" gate="1" pin="GND"/>
-<junction x="713.74" y="276.86" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="678.18" y="297.18" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="PRGM" gate="A" pin="1"/>
-<wire x1="581.66" y1="294.64" x2="589.28" y2="294.64" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="589.28" y1="294.64" x2="589.28" y2="289.56" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="546.1" y1="314.96" x2="553.72" y2="314.96" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="553.72" y1="314.96" x2="553.72" y2="309.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="GND49" gate="1" pin="GND"/>
-<wire x1="589.28" y1="289.56" x2="566.42" y2="289.56" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="589.28" y="289.56" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="553.72" y1="309.88" x2="530.86" y2="309.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="553.72" y="309.88" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="566.42" y1="297.18" x2="566.42" y2="289.56" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="530.86" y1="317.5" x2="530.86" y2="309.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="R28" gate="G$1" pin="1"/>
@@ -25630,42 +25631,33 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="741.68" y1="358.14" x2="751.84" y2="358.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="706.12" y1="378.46" x2="716.28" y2="378.46" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="C16" gate="G$1" pin="2"/>
-<wire x1="751.84" y1="358.14" x2="762" y2="358.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="751.84" y="358.14" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="716.28" y1="378.46" x2="726.44" y2="378.46" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="716.28" y="378.46" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="C17" gate="G$1" pin="2"/>
-<wire x1="762" y1="358.14" x2="772.16" y2="358.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="762" y="358.14" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="726.44" y1="378.46" x2="736.6" y2="378.46" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="726.44" y="378.46" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="GND56" gate="1" pin="GND"/>
-<junction x="741.68" y="358.14" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-</segment>
-<segment>
-<pinref part="C18" gate="G$1" pin="2"/>
-<pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="744.22" y1="292.1" x2="744.22" y2="287.02" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="744.22" y1="287.02" x2="744.22" y2="281.94" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="744.22" y1="287.02" x2="749.3" y2="287.02" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="744.22" y="287.02" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<pinref part="GND57" gate="1" pin="GND"/>
+<junction x="706.12" y="378.46" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="BOOT" gate="A" pin="5"/>
-<wire x1="581.66" y1="358.14" x2="574.04" y2="358.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="574.04" y1="358.14" x2="574.04" y2="353.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="574.04" y1="353.06" x2="586.74" y2="353.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="586.74" y1="353.06" x2="596.9" y2="353.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="596.9" y1="353.06" x2="596.9" y2="358.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="546.1" y1="378.46" x2="538.48" y2="378.46" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="538.48" y1="378.46" x2="538.48" y2="373.38" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="538.48" y1="373.38" x2="551.18" y2="373.38" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="551.18" y1="373.38" x2="561.34" y2="373.38" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="561.34" y1="373.38" x2="561.34" y2="378.46" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="BOOT" gate="A" pin="6"/>
-<wire x1="596.9" y1="358.14" x2="589.28" y2="358.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="586.74" y1="353.06" x2="586.74" y2="347.98" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="586.74" y="353.06" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="561.34" y1="378.46" x2="553.72" y2="378.46" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="551.18" y1="373.38" x2="551.18" y2="368.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="551.18" y="373.38" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="GND40" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="RST" gate="G$1" pin="1"/>
-<wire x1="627.38" y1="337.82" x2="635" y2="337.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="635" y1="337.82" x2="635" y2="332.74" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="591.82" y1="358.14" x2="599.44" y2="358.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="599.44" y1="358.14" x2="599.44" y2="353.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="GND58" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -25826,62 +25818,62 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 </segment>
 <segment>
 <pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="741.68" y1="330.2" x2="741.68" y2="335.28" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="706.12" y1="350.52" x2="706.12" y2="355.6" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="734.06" y1="330.2" x2="734.06" y2="335.28" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="698.5" y1="350.52" x2="698.5" y2="355.6" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="VDD"/>
 <pinref part="C13" gate="G$1" pin="+"/>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<wire x1="723.9" y1="347.98" x2="723.9" y2="353.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="723.9" y="347.98" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="723.9" y="347.98" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="723.9" y1="347.98" x2="713.74" y2="347.98" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="688.34" y1="368.3" x2="688.34" y2="373.38" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="688.34" y="368.3" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="688.34" y="368.3" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="688.34" y1="368.3" x2="678.18" y2="368.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="U7" gate="G$1" pin="VDDA"/>
-<wire x1="713.74" y1="350.52" x2="713.74" y2="347.98" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="713.74" y="347.98" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="678.18" y1="370.84" x2="678.18" y2="368.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="678.18" y="368.3" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="C23" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="PRGM" gate="A" pin="4"/>
-<wire x1="581.66" y1="302.26" x2="589.28" y2="302.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="589.28" y1="302.26" x2="589.28" y2="309.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="546.1" y1="322.58" x2="553.72" y2="322.58" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="553.72" y1="322.58" x2="553.72" y2="330.2" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
-<wire x1="589.28" y1="309.88" x2="566.42" y2="309.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="589.28" y="309.88" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="553.72" y1="330.2" x2="530.86" y2="330.2" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="553.72" y="330.2" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="566.42" y1="304.8" x2="566.42" y2="309.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="530.86" y1="325.12" x2="530.86" y2="330.2" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
-<wire x1="741.68" y1="368.3" x2="741.68" y2="365.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="741.68" y1="365.76" x2="751.84" y2="365.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="706.12" y1="388.62" x2="706.12" y2="386.08" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="706.12" y1="386.08" x2="716.28" y2="386.08" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<junction x="741.68" y="365.76" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="706.12" y="386.08" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="751.84" y1="365.76" x2="762" y2="365.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="751.84" y="365.76" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="716.28" y1="386.08" x2="726.44" y2="386.08" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="716.28" y="386.08" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="762" y1="365.76" x2="772.16" y2="365.76" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="762" y="365.76" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="726.44" y1="386.08" x2="736.6" y2="386.08" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="726.44" y="386.08" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="C17" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="BOOT" gate="A" pin="1"/>
-<wire x1="581.66" y1="363.22" x2="574.04" y2="363.22" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="574.04" y1="363.22" x2="574.04" y2="368.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="574.04" y1="368.3" x2="586.74" y2="368.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="546.1" y1="383.54" x2="538.48" y2="383.54" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="538.48" y1="383.54" x2="538.48" y2="388.62" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="538.48" y1="388.62" x2="551.18" y2="388.62" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="BOOT" gate="A" pin="2"/>
-<wire x1="586.74" y1="368.3" x2="596.9" y2="368.3" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="596.9" y1="368.3" x2="596.9" y2="363.22" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="596.9" y1="363.22" x2="589.28" y2="363.22" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="586.74" y1="368.3" x2="586.74" y2="370.84" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="586.74" y="368.3" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="551.18" y1="388.62" x2="561.34" y2="388.62" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="561.34" y1="388.62" x2="561.34" y2="383.54" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="561.34" y1="383.54" x2="553.72" y2="383.54" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="551.18" y1="388.62" x2="551.18" y2="391.16" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="551.18" y="388.62" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
@@ -26319,8 +26311,8 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="PA5"/>
-<wire x1="662.94" y1="320.04" x2="647.7" y2="320.04" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="642.62" y="320.04" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="340.36" x2="612.14" y2="340.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="607.06" y="340.36" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -26345,8 +26337,8 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="PA4"/>
-<wire x1="662.94" y1="322.58" x2="647.7" y2="322.58" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="642.62" y="322.58" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="342.9" x2="612.14" y2="342.9" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="607.06" y="342.9" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -26371,8 +26363,8 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="PA7"/>
-<wire x1="662.94" y1="314.96" x2="647.7" y2="314.96" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="642.62" y="314.96" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="335.28" x2="612.14" y2="335.28" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="607.06" y="335.28" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -26396,8 +26388,8 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="PA6"/>
-<wire x1="662.94" y1="317.5" x2="647.7" y2="317.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="642.62" y="317.5" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="337.82" x2="612.14" y2="337.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="607.06" y="337.82" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -26421,8 +26413,8 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="PA2"/>
-<wire x1="662.94" y1="327.66" x2="647.7" y2="327.66" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="645.16" y="327.66" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="347.98" x2="612.14" y2="347.98" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="609.6" y="347.98" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="2B" class="0">
@@ -26446,8 +26438,8 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="PA3"/>
-<wire x1="662.94" y1="325.12" x2="647.7" y2="325.12" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="645.16" y="325.12" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="345.44" x2="612.14" y2="345.44" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="609.6" y="345.44" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="Y_VOLT_OUT" class="0">
@@ -26462,8 +26454,8 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="PA1"/>
-<wire x1="662.94" y1="330.2" x2="647.7" y2="330.2" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="645.16" y="330.2" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="350.52" x2="612.14" y2="350.52" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="609.6" y="350.52" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="X_VOLT_OUT" class="0">
@@ -26477,155 +26469,168 @@ Source: &lt;a href="https://www.ohmite.com/assets/docs/sink_ex.pdf?r=false"&gt; 
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="PA0_WKUP"/>
-<wire x1="662.94" y1="332.74" x2="647.7" y2="332.74" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="645.16" y="332.74" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="353.06" x2="612.14" y2="353.06" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="609.6" y="353.06" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="VBAT"/>
-<wire x1="662.94" y1="342.9" x2="650.24" y2="342.9" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="363.22" x2="614.68" y2="363.22" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="NRST"/>
-<wire x1="662.94" y1="340.36" x2="627.38" y2="340.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="360.68" x2="591.82" y2="360.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="RST" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="BOOT0"/>
-<wire x1="662.94" y1="337.82" x2="650.24" y2="337.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="650.24" y="337.82" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="358.14" x2="614.68" y2="358.14" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="614.68" y="358.14" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 <segment>
 <pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="563.88" y1="360.68" x2="553.72" y2="360.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="551.18" y="360.68" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="528.32" y1="381" x2="518.16" y2="381" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="515.62" y="381" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="PC13-TAMPER-RTC"/>
-<wire x1="662.94" y1="289.56" x2="650.24" y2="289.56" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="309.88" x2="614.68" y2="309.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="640.08" y1="289.56" x2="627.38" y2="289.56" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="604.52" y1="309.88" x2="591.82" y2="309.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="TX_PIN" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="PA9"/>
-<wire x1="662.94" y1="309.88" x2="629.92" y2="309.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="647.7" y="309.88" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="330.2" x2="594.36" y2="330.2" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="612.14" y="330.2" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="UART" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="RX_PIN" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="PA10"/>
-<wire x1="662.94" y1="307.34" x2="629.92" y2="307.34" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="647.7" y="307.34" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="327.66" x2="594.36" y2="327.66" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="612.14" y="327.66" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="UART" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="PB7"/>
-<wire x1="713.74" y1="314.96" x2="741.68" y2="314.96" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="746.76" y="314.96" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="678.18" y1="335.28" x2="706.12" y2="335.28" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="711.2" y="335.28" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="I2C" gate="A" pin="2"/>
-<wire x1="741.68" y1="314.96" x2="762" y2="314.96" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="741.68" y1="314.96" x2="741.68" y2="320.04" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="741.68" y="314.96" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="706.12" y1="335.28" x2="726.44" y2="335.28" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="706.12" y1="335.28" x2="706.12" y2="340.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="706.12" y="335.28" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="PB6"/>
-<wire x1="713.74" y1="317.5" x2="734.06" y2="317.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="746.76" y="317.5" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="678.18" y1="337.82" x2="698.5" y2="337.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="711.2" y="337.82" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="I2C" gate="A" pin="1"/>
-<wire x1="734.06" y1="317.5" x2="762" y2="317.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="734.06" y1="317.5" x2="734.06" y2="320.04" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="734.06" y="317.5" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="698.5" y1="337.82" x2="726.44" y2="337.82" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="698.5" y1="337.82" x2="698.5" y2="340.36" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="698.5" y="337.82" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="PD0_OSC_IN"/>
-<wire x1="713.74" y1="289.56" x2="726.44" y2="289.56" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="726.44" y1="289.56" x2="726.44" y2="292.1" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="726.44" y1="292.1" x2="731.52" y2="292.1" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="678.18" y1="309.88" x2="701.04" y2="309.88" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="701.04" y1="309.88" x2="701.04" y2="312.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="701.04" y1="312.42" x2="706.12" y2="312.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
-<wire x1="731.52" y1="290.83" x2="731.52" y2="292.1" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="731.52" y1="292.1" x2="736.6" y2="292.1" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="731.52" y="292.1" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="706.12" y1="312.42" x2="713.74" y2="312.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="713.74" y1="311.15" x2="713.74" y2="312.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="713.74" y1="312.42" x2="718.82" y2="312.42" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="713.74" y="312.42" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="R34" gate="G$1" pin="2"/>
+<junction x="706.12" y="312.42"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="PD1_OSC_OUT"/>
-<wire x1="713.74" y1="287.02" x2="726.44" y2="287.02" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="678.18" y1="307.34" x2="701.04" y2="307.34" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
-<wire x1="731.52" y1="283.21" x2="731.52" y2="281.94" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="726.44" y1="287.02" x2="726.44" y2="281.94" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="726.44" y1="281.94" x2="731.52" y2="281.94" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="731.52" y1="281.94" x2="736.6" y2="281.94" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="731.52" y="281.94" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="713.74" y1="303.53" x2="713.74" y2="302.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="701.04" y1="307.34" x2="701.04" y2="302.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="701.04" y1="302.26" x2="706.12" y2="302.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="706.12" y1="302.26" x2="713.74" y2="302.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="713.74" y1="302.26" x2="718.82" y2="302.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<junction x="713.74" y="302.26" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="R34" gate="G$1" pin="1"/>
+<junction x="706.12" y="302.26"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="PA13"/>
-<wire x1="662.94" y1="299.72" x2="581.66" y2="299.72" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="320.04" x2="546.1" y2="320.04" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="PRGM" gate="A" pin="3"/>
-<label x="591.82" y="299.72" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="556.26" y="320.04" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="PA14"/>
-<wire x1="662.94" y1="297.18" x2="581.66" y2="297.18" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="317.5" x2="546.1" y2="317.5" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="PRGM" gate="A" pin="2"/>
-<label x="591.82" y="297.18" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="556.26" y="317.5" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="BOOT" gate="A" pin="4"/>
-<wire x1="589.28" y1="360.68" x2="596.9" y2="360.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="553.72" y1="381" x2="561.34" y2="381" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="R32" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <pinref part="BOOT" gate="A" pin="3"/>
-<wire x1="581.66" y1="360.68" x2="574.04" y2="360.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="546.1" y1="381" x2="538.48" y2="381" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="R33" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="BOOT1" class="0">
 <segment>
-<pinref part="U7" gate="G$1" pin="PB1"/>
-<wire x1="713.74" y1="330.2" x2="721.36" y2="330.2" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="716.28" y="330.2" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="571.5" y1="381" x2="581.66" y2="381" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<label x="576.58" y="381" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 <segment>
-<pinref part="R32" gate="G$1" pin="2"/>
-<wire x1="607.06" y1="360.68" x2="617.22" y2="360.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<label x="612.14" y="360.68" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<pinref part="U7" gate="G$1" pin="PB2"/>
+<wire x1="678.18" y1="347.98" x2="683.26" y2="347.98" width="0.1524" layer="91"/>
+<label x="680.72" y="347.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="726.44" y1="312.42" x2="726.44" y2="302.26" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 </nets>

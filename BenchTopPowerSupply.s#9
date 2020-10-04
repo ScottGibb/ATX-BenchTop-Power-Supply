@@ -23870,6 +23870,28 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2165S_HOR
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
+<modules>
+<module name="HEATSINK" prefix="" dx="30.48" dy="20.32">
+<ports>
+</ports>
+<variantdefs>
+</variantdefs>
+<parts>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+</instances>
+<busses>
+</busses>
+<nets>
+</nets>
+</sheet>
+</sheets>
+</module>
+</modules>
 <groups>
 <schematic_group name="X_POWER_CIRCUITRY"/>
 <schematic_group name="Y_POWER_CIRCUITRY"/>
@@ -24095,11 +24117,10 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2165S_HOR
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="100nF"/>
 <part name="RST" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="GND58" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Y2" library="OPL_Crystal Oscillator" library_urn="urn:adsk.eagle:library:8004402" deviceset="DIP-CRYSTAL-16MHZ-18PF-30PPM-40R(HC49US)" device="" package3d_urn="urn:adsk.eagle:package:8004457/1" override_package3d_urn="urn:adsk.eagle:package:23383199/2" override_package_urn="urn:adsk.eagle:footprint:8004439/1" value="32.768K"/>
-<part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="20pF"/>
-<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="20pF"/>
-<part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="10uF"/>
+<part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24112,7 +24133,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2165S_HOR
 <text x="756.92" y="325.12" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">I2C INTERFACE</text>
 <text x="754.38" y="368.3" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">CAP BANK</text>
 <text x="731.52" y="345.44" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">TANK CAP</text>
-<text x="601.98" y="276.86" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">LOW SPEED OSCILLATOR CIRCUIT</text>
 <text x="764.54" y="25.4" size="1.778" layer="91" grouprefs="Y_POWER_CIRCUITRY">1V Per Amp in this config</text>
 <text x="767.08" y="132.08" size="1.778" layer="91" grouprefs="X_POWER_CIRCUITRY">1V Per Amp in this config</text>
 <text x="500.38" y="76.2" size="1.778" layer="91" grouprefs="9V_POWER_CIRCUITRY">1V Per Amp in this config</text>
@@ -24936,24 +24956,18 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2165S_HOR
 <instance part="GND58" gate="1" x="635" y="330.2" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
 <attribute name="VALUE" x="632.46" y="327.66" size="1.778" layer="96"/>
 </instance>
-<instance part="Y2" gate="G$1" x="657.86" y="281.94" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="655.32" y="279.4" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="661.67" y="279.4" size="1.27" layer="96" ratio="10" rot="R90"/>
-</instance>
-<instance part="C21" gate="G$1" x="652.78" y="287.02" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="649.859" y="280.924" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="652.399" y="280.924" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="C22" gate="G$1" x="652.78" y="276.86" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="649.859" y="270.764" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="652.399" y="270.764" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND59" gate="1" x="637.54" y="281.94" smashed="yes" rot="R270" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="635" y="284.48" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="C23" gate="G$1" x="713.74" y="345.44" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
 <attribute name="NAME" x="715.264" y="345.821" size="1.778" layer="95"/>
 <attribute name="VALUE" x="715.264" y="340.741" size="1.778" layer="96"/>
+</instance>
+<instance part="GND59" gate="1" x="368.3" y="119.38" smashed="yes" grouprefs="9V_POWER_CIRCUITRY">
+<attribute name="VALUE" x="365.76" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="GND60" gate="1" x="612.14" y="104.14" smashed="yes" grouprefs="Y_POWER_CIRCUITRY">
+<attribute name="VALUE" x="609.6" y="101.6" size="1.778" layer="96"/>
+</instance>
+<instance part="GND61" gate="1" x="609.6" y="218.44" smashed="yes" grouprefs="X_POWER_CIRCUITRY">
+<attribute name="VALUE" x="607.06" y="215.9" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -25443,15 +25457,22 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2165S_HOR
 <pinref part="GND58" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="650.24" y1="287.02" x2="645.16" y2="287.02" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="645.16" y1="287.02" x2="645.16" y2="281.94" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="645.16" y1="281.94" x2="645.16" y2="276.86" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="645.16" y1="276.86" x2="650.24" y2="276.86" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="645.16" y1="281.94" x2="640.08" y2="281.94" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<junction x="645.16" y="281.94" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="363.22" y1="121.92" x2="368.3" y2="121.92" width="0.1524" layer="91" grouprefs="9V_POWER_CIRCUITRY"/>
 <pinref part="GND59" gate="1" pin="GND"/>
+<wire x1="368.3" y1="121.92" x2="373.38" y2="121.92" width="0.1524" layer="91" grouprefs="9V_POWER_CIRCUITRY"/>
+<junction x="368.3" y="121.92" grouprefs="9V_POWER_CIRCUITRY"/>
+</segment>
+<segment>
+<wire x1="607.06" y1="106.68" x2="612.14" y2="106.68" width="0.1524" layer="91" grouprefs="Y_POWER_CIRCUITRY"/>
+<pinref part="GND60" gate="1" pin="GND"/>
+<wire x1="612.14" y1="106.68" x2="617.22" y2="106.68" width="0.1524" layer="91" grouprefs="Y_POWER_CIRCUITRY"/>
+<junction x="612.14" y="106.68" grouprefs="Y_POWER_CIRCUITRY"/>
+</segment>
+<segment>
+<wire x1="604.52" y1="220.98" x2="609.6" y2="220.98" width="0.1524" layer="91" grouprefs="X_POWER_CIRCUITRY"/>
+<pinref part="GND61" gate="1" pin="GND"/>
+<wire x1="609.6" y1="220.98" x2="614.68" y2="220.98" width="0.1524" layer="91" grouprefs="X_POWER_CIRCUITRY"/>
+<junction x="609.6" y="220.98" grouprefs="X_POWER_CIRCUITRY"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -26358,27 +26379,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_5_08_2165S_HOR
 <pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="607.06" y1="360.68" x2="617.22" y2="360.68" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <label x="612.14" y="360.68" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="PC14-OSC32_IN"/>
-<wire x1="662.94" y1="287.02" x2="657.86" y2="287.02" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<pinref part="Y2" gate="G$1" pin="2"/>
-<wire x1="657.86" y1="287.02" x2="657.86" y2="285.75" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<pinref part="C21" gate="G$1" pin="2"/>
-<junction x="657.86" y="287.02" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="U7" gate="G$1" pin="PC15-OSC32_OUT"/>
-<wire x1="662.94" y1="284.48" x2="662.94" y2="276.86" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<pinref part="Y2" gate="G$1" pin="1"/>
-<wire x1="662.94" y1="276.86" x2="657.86" y2="276.86" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<wire x1="657.86" y1="276.86" x2="657.86" y2="278.13" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
-<pinref part="C22" gate="G$1" pin="2"/>
-<junction x="657.86" y="276.86" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 </segment>
 </net>
 </nets>
