@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-10-16T12:22:45Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "BenchTopPowerSupply"
+        },
+        "Owner": "Scott Gibb <scott.gibb.2016@uni.strath.ac.uk>",
+        "Size": {
+            "X": 160,
+            "Y": 100
+        }
+    }
+}
