@@ -25528,12 +25528,12 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <instance part="GND25" gate="1" x="571.5" y="309.88" smashed="yes" rot="R270" grouprefs="MICROCONTROLLER_CIRCUITRY">
 <attribute name="VALUE" x="568.96" y="312.42" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="UART" gate="A" x="591.82" y="327.66" smashed="yes" rot="R180" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="NAME" x="598.17" y="321.945" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="598.17" y="335.28" size="1.778" layer="96" rot="R180"/>
+<instance part="UART" gate="A" x="579.12" y="327.66" smashed="yes" rot="R180" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="NAME" x="585.47" y="321.945" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="585.47" y="335.28" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND38" gate="1" x="604.52" y="325.12" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
-<attribute name="VALUE" x="612.14" y="325.12" size="1.778" layer="96" rot="R180"/>
+<instance part="GND38" gate="1" x="589.28" y="325.12" smashed="yes" rot="R90" grouprefs="MICROCONTROLLER_CIRCUITRY">
+<attribute name="VALUE" x="596.9" y="325.12" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="I2C" gate="A" x="782.32" y="335.28" smashed="yes" grouprefs="MICROCONTROLLER_CIRCUITRY">
 <attribute name="NAME" x="775.97" y="340.995" size="1.778" layer="95"/>
@@ -26319,7 +26319,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 </segment>
 <segment>
 <pinref part="UART" gate="A" pin="1"/>
-<wire x1="594.36" y1="325.12" x2="601.98" y2="325.12" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="581.66" y1="325.12" x2="586.74" y2="325.12" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -27419,7 +27419,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <net name="TX_PIN" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="PA9"/>
-<wire x1="627.38" y1="330.2" x2="594.36" y2="330.2" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="330.2" x2="581.66" y2="330.2" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <label x="612.14" y="330.2" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="UART" gate="A" pin="3"/>
 </segment>
@@ -27427,7 +27427,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <net name="RX_PIN" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="PA10"/>
-<wire x1="627.38" y1="327.66" x2="594.36" y2="327.66" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
+<wire x1="627.38" y1="327.66" x2="581.66" y2="327.66" width="0.1524" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <label x="612.14" y="327.66" size="1.778" layer="95" grouprefs="MICROCONTROLLER_CIRCUITRY"/>
 <pinref part="UART" gate="A" pin="2"/>
 </segment>
@@ -27628,12 +27628,22 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <wire x1="332.74" y1="378.46" x2="320.04" y2="378.46" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
 <label x="330.2" y="381" size="1.778" layer="95" rot="R180" grouprefs="FAN_CONTROL"/>
 </segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="PB11"/>
+<wire x1="678.18" y1="325.12" x2="698.5" y2="325.12" width="0.1524" layer="91"/>
+<label x="683.26" y="325.12" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IN_FAN_PWM" class="0">
 <segment>
 <pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="269.24" y1="378.46" x2="261.62" y2="378.46" width="0.1524" layer="91" grouprefs="FAN_CONTROL"/>
 <label x="261.62" y="381" size="1.778" layer="95" rot="R180" grouprefs="FAN_CONTROL"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="PB10"/>
+<wire x1="678.18" y1="327.66" x2="698.5" y2="327.66" width="0.1524" layer="91"/>
+<label x="683.26" y="327.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$35" class="0">

@@ -24866,7 +24866,6 @@ grid 2.54 mm</description>
 <sheet>
 <plain>
 <text x="739.14" y="241.3" size="1.778" layer="91" grouprefs="X_POWER_CIRCUITRY">CHECK INDUCTOR PART AND CAP PART</text>
-<text x="58.42" y="243.84" size="1.778" layer="91">Screw Terminals need replaced cant access them from layout</text>
 <text x="523.24" y="391.16" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">BOOT CIRCUIT</text>
 <text x="528.32" y="335.28" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">PROGRAM CIRCUIT</text>
 <text x="690.88" y="320.04" size="1.778" layer="91" grouprefs="MICROCONTROLLER_CIRCUITRY">HIGH SPEED OSCILLATOR CIRCUIT</text>
